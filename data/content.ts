@@ -172,15 +172,16 @@ export const projects: Project[] = [
     tags: ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
   },
   {
-    title: "Bellwether: Self Managing API",
-    url: "https://github.com/navyabijoy/bellwether",
-    thumbnail: "/projects/bellwether.png",
+    title: "Retail Price Elasticity Analysis",
+    url: "https://github.com/sandeepmehta08",
+    thumbnail: "/projects/retail-price-elasticity.png",
+    date: "July 2025 – Aug 2025",
     bullets: [
-      "Built an end-to-end system that detects silent API breaking changes (enum removals, unit shifts, nullability creep) through **LLM-powered semantic probes** and deterministic verification.",
-      "Implemented an **AST-based call-site locator** with a 5-step verification pipeline, reducing false positives from **41 candidates to 6 verified findings**.",
-      "Handled real-world code patterns including destructuring, aliasing, and optional chaining for robust cross-codebase analysis.",
+      "Analyzed **10,000+** retail sales observations to examine the relationship between price and consumer demand.",
+      "Estimated price elasticity of demand and derived optimal pricing insights grounded in microeconomic theory.",
+      "Quantified revenue impact across different price levels to identify price–revenue trade-offs.",
     ],
-    tags: ["Go", "Docker", "Slack API", "Anthropic SDK"],
+    tags: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Statsmodels"],
   },
   {
     title: "Conduit: SaaS Integration Gateway",
