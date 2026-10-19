@@ -160,15 +160,16 @@ export const projects: Project[] = [
     tags: ["Pandas", "NumPy", "Datetime", "Plotly"],
   },
   {
-    title: "Chaosline: AI Agent Safety Testing Framework",
-    url: "https://github.com/navyabijoy/chaosline",
-    thumbnail: "/projects/chaosline.png",
+    title: "India's Economic Growth Analysis",
+    url: "https://github.com/sandeepmehta08",
+    thumbnail: "/projects/india-economic-growth.png",
+    date: "Jan 2025 – Feb 2025",
     bullets: [
-      "Built a **pre-deployment chaos testing platform** that injects realistic tool failures to detect harmful agent behavior; categorizes failures across a **4-quadrant matrix** (safe/degraded vs. honest/silent).",
-      "Shipped **38 preset scenarios** across **6 tool domains** (payments, database, email, filesystem, HTTP, search) for out-of-the-box coverage.",
-      "Engineered a production-ready **TypeScript monorepo CLI** with a YAML scenario DSL, stateful mock environments, replayable test bundles, and Markdown/JSON/HTML reporting for reproducible CI testing.",
+      "Conducted exploratory data analysis (EDA) on **60+ years** of India's macroeconomic data, focusing on GDP and key economic indicators.",
+      "Analyzed structural breaks, cyclical patterns, and shock periods in economic growth.",
+      "Produced decade-wise comparative analysis to capture transitions between stable growth and high-volatility phases.",
     ],
-    tags: ["TypeScript", "Node.js", "Anthropic SDK", "OpenAI SDK", "MCP", "Docker"],
+    tags: ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
   },
   {
     title: "Bellwether: Self Managing API",
