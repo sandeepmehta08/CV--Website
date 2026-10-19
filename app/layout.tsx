@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     description: site.description,
     url: site.url,
     siteName: site.name,
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
+    images: [{ url: "/og.png", width: 600, height: 600, alt: site.name }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: site.title, description: site.description, images: ["/og.png"] },
+  twitter: { card: "summary", title: site.title, description: site.description, images: ["/og.png"] },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
