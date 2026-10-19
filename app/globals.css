@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 17 17 17;
+  --muted: 107 114 128;
+  --line: 229 231 235;
+  --accent: 15 118 110;
+}
+.dark {
+  --bg: 11 11 12;
+  --fg: 237 237 237;
+  --muted: 156 163 175;
+  --line: 38 38 42;
+  --accent: 94 234 212;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-bg text-fg antialiased; }
+::selection { background: rgb(var(--accent) / 0.25); }
