@@ -162,7 +162,7 @@ export const projects: Project[] = [
   {
     title: "India's Economic Growth Analysis",
     url: "https://github.com/sandeepmehta08",
-    thumbnail: "/projects/india-economic-growth.png",
+    thumbnail: "/projects/india-growth.png",
     date: "Jan 2025 – Feb 2025",
     bullets: [
       "Conducted exploratory data analysis (EDA) on **60+ years** of India's macroeconomic data, focusing on GDP and key economic indicators.",
