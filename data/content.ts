@@ -29,7 +29,7 @@ export const experience: Entry[] = [
     company: "YLAC",
     url: "https://www.ylac.in/",
     date: "June 2026 – Present",
-    logo: "/logos/guidewire.png",
+    logo: "/logos/ylac.png",
     bullets: [
       "Developed and executed a communications strategy to build greater visibility of YLAC's programs across digital platforms.",
       "Launched digital campaigns grounded in YLAC's work and aligned with social media trends to improve audience engagement.",
@@ -41,7 +41,7 @@ export const experience: Entry[] = [
     company: "YLAC",
     url: "https://www.ylac.in/",
     date: "April 2026 – May 2026",
-    logo: "/logos/guidewire.png",
+    logo: "/logos/ylac.png",
     bullets: [
       "Spearheaded live policy research for Lok Sabha MP Malvika Devi on improving agricultural incomes through crop diversification in Odisha.",
       "Examined agricultural data, farmer income trends, and government policy frameworks using research reports and secondary datasets.",
