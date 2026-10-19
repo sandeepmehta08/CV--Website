@@ -141,21 +141,23 @@ export type Project = {
   title: string;
   url: string;
   thumbnail: string;
+  date?: string;
   bullets: string[];
   tags: string[];
 };
 
 export const projects: Project[] = [
   {
-    title: "Foresight: ML-Driven Predictive Self-Healing Platform",
-    url: "https://github.com/navyabijoy/foresight",
-    thumbnail: "/projects/foresight.png",
+    title: "Customer Predictive Value Modelling",
+    url: "https://github.com/sandeepmehta08",
+    thumbnail: "/projects/customer-predictive-value.png",
+    date: "Nov 2025 – Dec 2025",
     bullets: [
-      "Developed a **Kafka-streamed metrics pipeline** feeding a PyTorch **LSTM anomaly predictor**, forecasting incidents 3–5 minutes ahead of threshold breach.",
-      "Cut **MTTR** from 5+ minutes to **under 60 seconds** through automated predictive remediation.",
-      "Tracked model versions and automated weekly retraining/drift detection via **MLflow**, provisioning self-healing infra across **3 Availability Zones** with Terraform-managed autoscaling (2 to 10 replicas).",
+      "Analyzed **500K+** retail transaction records to identify key revenue drivers across products, customers, and countries.",
+      "Identified top-performing products and high-value customer segments based on revenue and purchasing behavior.",
+      "Derived actionable insights to support AI/ML use cases such as customer value prediction and segmentation.",
     ],
-    tags: ["FastAPI", "Next.js", "Python", "Kubernetes", "Prometheus", "Docker", "LSTM", "Neural Networks", "Terraform"],
+    tags: ["Pandas", "NumPy", "Datetime", "Plotly"],
   },
   {
     title: "Chaosline: AI Agent Safety Testing Framework",

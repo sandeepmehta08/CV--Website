@@ -6,11 +6,12 @@ type Props = {
   title: string;
   url: string;
   thumbnail: string;
+  date?: string;
   bullets: string[];
   tags: string[];
 };
 
-export default function ProjectCard({ title, url, thumbnail, bullets, tags }: Props) {
+export default function ProjectCard({ title, url, thumbnail, date, bullets, tags }: Props) {
   return (
     <article className="overflow-hidden rounded-xl border border-line transition hover:border-accent/50 hover:bg-fg/[0.02]">
       <SafeImage
@@ -19,12 +20,15 @@ export default function ProjectCard({ title, url, thumbnail, bullets, tags }: Pr
         className="aspect-[16/7] w-full border-b border-line object-cover"
       />
       <div className="p-5">
-        <h3 className="font-medium">
-          <a href={url} target="_blank" rel="noreferrer"
-             className="text-accent underline-offset-4 hover:underline">
-            {title}
-          </a>
-        </h3>
+        <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+          <h3 className="font-medium">
+            <a href={url} target="_blank" rel="noreferrer"
+               className="text-accent underline-offset-4 hover:underline">
+              {title}
+            </a>
+          </h3>
+          {date && <span className="shrink-0 text-xs text-muted">{date}</span>}
+        </div>
         <ul className="mt-3 space-y-2 text-sm leading-relaxed text-muted">
           {bullets.map((b, i) => (
             <li key={i} className="flex gap-2">
