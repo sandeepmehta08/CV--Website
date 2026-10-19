@@ -1,9 +1,9 @@
 export const site = {
   name: "sandeep mehta",
-  title: "sandeep mehta — software engineer",
+  title: "sandeep mehta — policy research & economics",
   description:
-    "Software engineer building at the intersection of AI/ML and backend infrastructure.",
-  url: "https://your-domain.vercel.app", // change after deploy
+    "Policy research at the intersection of data, tech, governance and economics.",
+  url: "https://sandeepmehta.vercel.app",
 };
 
 export const hero = {
