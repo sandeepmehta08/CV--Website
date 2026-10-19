@@ -150,7 +150,7 @@ export const projects: Project[] = [
   {
     title: "Customer Predictive Value Modelling",
     url: "https://github.com/sandeepmehta08",
-    thumbnail: "/projects/customer-predictive-value.png",
+    thumbnail: "/projects/customer-value.png",
     date: "Nov 2025 – Dec 2025",
     bullets: [
       "Analyzed **500K+** retail transaction records to identify key revenue drivers across products, customers, and countries.",
