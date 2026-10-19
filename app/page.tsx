@@ -1,7 +1,8 @@
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import ExperienceCard from "@/components/ExperienceCard";
-import { experience, education, excites, connect, links } from "@/data/content";
+import TagPill from "@/components/TagPill";
+import { experience, skills, education, excites, connect, links } from "@/data/content";
 
 export default function Home() {
   return (
@@ -10,6 +11,14 @@ export default function Home() {
 
       <Section title="what i do">
         {experience.map((e) => <ExperienceCard key={e.role + e.date} {...e} />)}
+      </Section>
+
+      <Section title="skills i have">
+        <div className="flex flex-wrap gap-2.5">
+          {skills.map((s) => (
+            <TagPill key={s}>{s}</TagPill>
+          ))}
+        </div>
       </Section>
 
       <Section title="education">

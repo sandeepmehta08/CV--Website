@@ -50,6 +50,27 @@ export const experience: Entry[] = [
   },
 ];
 
+export const skills = [
+  "Python",
+  "R",
+  "SQL",
+  "Stata",
+  "Excel",
+  "Power BI",
+  "Tableau",
+  "Pandas",
+  "NumPy",
+  "Matplotlib",
+  "Data Visualization",
+  "Data Analysis",
+  "Statistical Modeling",
+  "Time Series Analysis",
+  "Econometrics",
+  "Quantitative Research",
+  "Policy Research",
+  "Policy Writing",
+];
+
 export const openSource: Entry[] = [
   {
     role: "Contributor",
