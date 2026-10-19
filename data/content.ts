@@ -174,7 +174,7 @@ export const projects: Project[] = [
   {
     title: "Retail Price Elasticity Analysis",
     url: "https://github.com/sandeepmehta08",
-    thumbnail: "/projects/retail-price-elasticity.png",
+    thumbnail: "/projects/price-elasticity.png",
     date: "July 2025 – Aug 2025",
     bullets: [
       "Analyzed **10,000+** retail sales observations to examine the relationship between price and consumer demand.",
