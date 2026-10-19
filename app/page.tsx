@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import ExperienceCard from "@/components/ExperienceCard";
-import { experience, openSource, education, achievements, excites, connect, links } from "@/data/content";
+import { experience, education, excites, connect, links } from "@/data/content";
 
 export default function Home() {
   return (
@@ -12,16 +12,8 @@ export default function Home() {
         {experience.map((e) => <ExperienceCard key={e.role + e.date} {...e} />)}
       </Section>
 
-      <Section title="open source">
-        {openSource.map((e) => <ExperienceCard key={e.role + e.date} {...e} />)}
-      </Section>
-
       <Section title="education">
         {education.map((e) => <ExperienceCard key={e.title} {...e} />)}
-      </Section>
-
-      <Section title="achievements">
-        <ExperienceCard title={achievements.title} bullets={achievements.bullets} />
       </Section>
 
       <Section title="what excites me">

@@ -25,43 +25,27 @@ export type Entry = {
 
 export const experience: Entry[] = [
   {
-    role: "Software Engineer (AI/ML)",
-    company: "Airbus",
-    url: "https://www.airbus.com/",
-    date: "Sept 2026 – Present",
-    logo: "/logos/airbus.png",
-    bullets: ["Working with their AI team on Computer Vision Projects."],
-  },
-  {
-    role: "Associate Consultant Intern",
-    company: "Guidewire",
-    url: "https://www.guidewire.com/",
-    date: "Jan 2026 – Jun 2026",
+    role: "Social Media and Communications Intern",
+    company: "YLAC",
+    url: "https://www.ylac.in/",
+    date: "June 2026 – Present",
     logo: "/logos/guidewire.png",
     bullets: [
-      "Owned end-to-end feature delivery for a customer-facing production application serving **5,000+ daily active users**, shipping **Java**-based backend services in Agile sprints.",
-      "Optimized system reliability by engineering **JUnit & Mockito** test suites, expanding code coverage by **15%** and preventing critical production bug leaks.",
+      "Developed and executed a communications strategy to build greater visibility of YLAC's programs across digital platforms.",
+      "Launched digital campaigns grounded in YLAC's work and aligned with social media trends to improve audience engagement.",
+      "Produced content and designed visual collateral for various social media channels.",
     ],
   },
   {
-    role: "Consultant Developer Intern",
-    company: "Guidewire",
-    url: "https://www.guidewire.com/",
-    date: "Jun 2025 – Sept 2025",
+    role: "Public Policy Fellow",
+    company: "YLAC",
+    url: "https://www.ylac.in/",
+    date: "April 2026 – May 2026",
     logo: "/logos/guidewire.png",
     bullets: [
-      "Streamlined operational workflows by designing rule-driven automation in **Java**, reducing manual handoffs by **10%** and increasing system throughput by **13%**.",
-      "Delivered a scalability-focused Proof of Concept (POC) simulating **10,000+ concurrent requests** to validate high-availability architecture for a critical release milestone.",
-    ],
-  },
-  {
-    role: "Software Engineer",
-    company: "Freelance",
-    date: "Mar 2025 – May 2025",
-    logo: "/logos/freelance.png",
-    bullets: [
-      "Designed and shipped a **REST API backend** product with role-based access control (RBAC), validating security via **50+ Playwright end-to-end tests** across 4 user roles.",
-      "Migrated **10GB+** of binary asset storage to **AWS S3**, improving response latency by **30%** and ensuring 0% unauthorized access.",
+      "Spearheaded live policy research for Lok Sabha MP Malvika Devi on improving agricultural incomes through crop diversification in Odisha.",
+      "Examined agricultural data, farmer income trends, and government policy frameworks using research reports and secondary datasets.",
+      "Constructed evidence-based policy recommendations through comparative analysis of successful agricultural models across Indian states.",
     ],
   },
 ];
@@ -121,13 +105,12 @@ export const openSource: Entry[] = [
 
 export const education = [
   {
-    title: "B.Tech in Computer Science",
-    org: "SRM Institute of Science and Technology",
-    date: "Sept 2022 – May 2026",
-    logo: "/logos/srm.png",
+    title: "B.A (Hons) Business Economics",
+    org: "Delhi University",
+    date: "Aug 2024 – Present",
+    logo: "/logos/du.png",
     bullets: [
-      "**CGPA:** 9.83/10",
-      "**Academic Excellence Award:** Scored 10/10 SGPA in III, V, VIII Semester. Secured 3rd for academic performance in SRM.",
+      "**CGPA:** 7.91",
     ],
   },
 ];
@@ -143,16 +126,15 @@ export const achievements = {
 };
 
 export const excites =
-  "I'm drawn to problems involving distributed systems, infrastructure automation, and backend scalability. Right now I'm deep into learning Go and Kubernetes, building robust platforms that can handle complex workflows and self-heal during failures.";
+  "I'm drawn to questions about how data and tech shape public decisions. Right now I'm deep into quantitative research and policy analysis, building work that makes sense of complex systems.";
 
 export const connect =
-  "Want to discuss backend systems, collaborate on projects, or just chat about tech? Feel free to reach out!";
+  "Interested in policy, data and tech, or want to collaborate on research? Feel free to reach out!";
 
 export const links = [
-  { label: "email", href: "mailto:navyabijoy14@gmail.com" },
-  { label: "linkedin", href: "https://www.linkedin.com/in/navya-bijoy-883a35249/" },
-  { label: "github", href: "https://github.com/navyabijoy" },
-  { label: "leetcode", href: "https://leetcode.com/u/navyaaaa13/" },
+  { label: "email", href: "mailto:sandeepmehta2508.connect@gmail.com" },
+  { label: "linkedin", href: "https://www.linkedin.com/in/sandeep-mehta-25bb99231/" },
+  { label: "github", href: "https://github.com/sandeepmehta08" },
 ];
 
 export type Project = {
