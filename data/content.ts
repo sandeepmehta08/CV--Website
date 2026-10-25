@@ -27,7 +27,7 @@ export const experience: Entry[] = [
   {
     role: "Social Media and Communications Intern",
     company: "YLAC",
-    url: "https://www.ylac.in/",
+    url: "https://theylacproject.com/",
     date: "June 2026 – Present",
     logo: "/logos/ylac.png",
     bullets: [
@@ -39,7 +39,7 @@ export const experience: Entry[] = [
   {
     role: "Public Policy Fellow",
     company: "YLAC",
-    url: "https://www.ylac.in/",
+    url: "https://theylacproject.com/",
     date: "April 2026 – May 2026",
     logo: "/logos/ylac.png",
     bullets: [
